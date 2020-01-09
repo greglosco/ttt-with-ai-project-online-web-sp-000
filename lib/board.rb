@@ -1,7 +1,7 @@
 class Board 
   
   def cells 
-    cells = []
+    [] << board
   end
   
   def reset!
