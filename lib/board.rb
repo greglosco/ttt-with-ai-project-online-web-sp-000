@@ -34,8 +34,8 @@ class Board
     !(position(input) == "" || position(input) == " ")
   end
   
-  def valid_move?(index)
-    if index.between?(0,8) && !taken?(index)
+  def valid_move?(input)
+    if input.between?(0,8) && !taken?(input)
      true
     else
     end
