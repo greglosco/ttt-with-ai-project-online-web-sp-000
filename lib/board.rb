@@ -35,7 +35,7 @@ class Board
   end
   
   def valid_move?(input)
-    if input.between?(0,8) && !taken?(input)
+    if input.to_i.between?(0,8) && !taken?(input)
      true
     else
     end
