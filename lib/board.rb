@@ -31,7 +31,7 @@ class Board
   end
   
   def position_taken?(index)
-    !(@board[index].nil? || @board[index] == " ")
+    !(@cells[index].nil? || @cells[index] == " ")
   end
   
 end 
