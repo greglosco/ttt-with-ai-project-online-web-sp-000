@@ -7,7 +7,7 @@ class Board
   end
   
   def reset!
-    cells = Board.new(9, " ")
+    cells = Array.new(9, " ")
   end 
   
 end 
