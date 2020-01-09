@@ -41,8 +41,12 @@ class Board
     end
   end
   
-  def update(position, token)
+  def update(position, player)
     
+    
+  end
+  
+  def token
     
   end
   
