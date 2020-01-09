@@ -30,8 +30,8 @@ class Board
     @cells.count {|character| character == "X" || character == "O"}
   end
   
-  def taken?(index)
-    !(position[index] == "" || position[index] == " ")
+  def taken?(input)
+    !(position[input] == "" || position[input] == " ")
   end
   
 end 
