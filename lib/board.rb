@@ -41,4 +41,9 @@ class Board
     end
   end
   
+  def update(position, token)
+    
+    
+  end
+  
 end 
