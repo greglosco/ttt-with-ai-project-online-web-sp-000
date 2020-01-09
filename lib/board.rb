@@ -7,8 +7,7 @@ class Board
   end
   
   def reset!
-    cells.clear 
-    cells= [" ", " ", " ", " ", " ", " ", " ", " "," "]
+    cells = Board.new(9, " ")
   end 
   
 end 
