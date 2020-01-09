@@ -4,7 +4,7 @@ class Board
   
   def reset!
     cells.clear 
-    cells = [" ", " ", " ", " ", " ", " ", " ", " "," "]
+    cells= [" ", " ", " ", " ", " ", " ", " ", " "," "]
   end 
   
 end 
