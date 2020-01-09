@@ -31,7 +31,7 @@ class Board
   end
   
   def taken?(index)
-    !(@cells[index] == "" || @cells[index] == " ")
+    !(position[index] == "" || position[index] == " ")
   end
   
 end 
