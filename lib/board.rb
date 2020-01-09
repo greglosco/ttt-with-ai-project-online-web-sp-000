@@ -1,8 +1,6 @@
 class Board 
   
-  def cells 
-    [] << board
-  end
+  attr_accessor :cells 
   
   def reset!
     cells.clear 
