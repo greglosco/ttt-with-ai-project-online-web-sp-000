@@ -1,6 +1,8 @@
 class Board 
   
-  cells = []
+  def cells 
+    cells = []
+  end
   
   def reset!
     cells.clear 
