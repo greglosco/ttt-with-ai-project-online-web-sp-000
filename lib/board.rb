@@ -31,7 +31,7 @@ class Board
   end
   
   def taken?(index)
-    !(@cells[index.to_i].nil? || @cells[index.to_i] == " ")
+    !(@cells[index] == "" || @cells[index] == " ")
   end
   
 end 
